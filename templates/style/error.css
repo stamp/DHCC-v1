@@ -1,0 +1,27 @@
+#error.module {
+    clear:both;
+    height:auto;
+}
+
+.Eerror, .Ewarning, .Eparse, .Enotice, .Ecoreerror, .Ecorewarning, .Eusererror, .Euserwarning, .Eusernotice {
+    padding:5px;
+    margin:10px;
+    background:url(/templates/images/error.gif);
+}
+
+.Eerror div, .Ewarning div, .Eparse div, .Enotice div, .Ecoreerror div, .Ecorewarning div, .Eusererror div, .Euserwarning div, .Eusernotice div {
+    background:#000;
+    padding:10px;
+}
+
+.Eerror, .Ecoreerror, .Eusererror {
+    background-color: #F00;
+}
+
+.Ewarning, .Ecorewarning, .Euserwarning {
+    background-color: #FF0;
+}
+
+.Enotice, .Eusernotice {
+    background-color: #00F;
+}

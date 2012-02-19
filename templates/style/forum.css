@@ -1,0 +1,37 @@
+.post {
+    margin-bottom:10px;
+}
+
+.post .info {
+    background:#222;
+    font-size:10px;
+    width:90px;
+    float:left;
+    overflow:hidden;
+}
+
+.post .info img {
+    width:60px;
+    height:80px;
+    border:1px solid #fff;
+    margin-top:3px;
+}
+
+.post .info center {
+    padding:10px;
+}
+
+.post .info a {
+    font-weight: bold;
+}
+
+.post .content {
+    background:#ccc;
+    color:#000;
+    float:left;
+    width:520px;
+}
+
+.post .content div {
+    padding:5px;
+}

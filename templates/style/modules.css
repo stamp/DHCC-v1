@@ -1,0 +1,110 @@
+.module .box {
+    margin:10px;
+}
+
+.module .box #head {
+    border-bottom: 2px dashed #fff;
+    font-weight:900;
+    padding-bottom:3px;
+    margin-bottom:3px;
+    height: auto;
+}
+
+.module .box #head div {
+    float:right;
+    font-weight:100;
+}
+
+
+.highlight {
+    background-color: #6B532E;
+}
+
+#text.module {
+    padding:10px;
+}
+#grades.module {
+    padding:10px;
+}
+#evaluate.module {
+    padding:10px;
+}
+#accesscard.module {
+    padding:10px;
+}
+#text.module li {
+    margin-left:20px;;
+}
+
+#adressbook.module {
+    padding:10px;
+}
+
+#mail.module {
+    padding:10px;
+}
+
+#mail.module div#content {
+    padding:10px;
+}
+
+#mail.module div.high {
+    background: #990000;
+}
+
+#mail.module div.low {
+    background: #006;
+}
+
+#mail.module table#headers {
+    background:#333;
+}
+
+#paging.module {
+display:inline;
+padding-left:10px;
+padding-right:20px;
+}
+
+#guestbook.module {
+
+}
+
+#forum.module table {
+    width:640px;
+}
+
+#forum.module table table {
+    width: auto;
+}
+
+#teams.module {
+padding:10px;
+}
+
+#guestbook.module .guestbookpost {
+    clear:both;
+    padding:10px;
+    /*background:#FFF593;*/
+}
+
+#guestbook.module .guestbookpost img {
+    width:  70px;
+    height: 100px;
+    float:left;
+    padding:0;
+    background: #fff;
+}
+
+#guestbook.module .guestbookpost .head {
+    padding: 2px 5px;
+    float:right;
+    width:430px;
+}
+
+#guestbook.module .guestbookpost .text {
+    padding: 2px 5px;
+    background:#fff;
+    float:right;
+    width:430px;
+}

@@ -1,0 +1,116 @@
+div.saved {
+    color:#050;
+    font-size:15px;
+    width: 33%;
+    text-align: center;
+    border: 3px dotted #005000;
+    padding: 5px;
+    margin: 20px 0px;
+}
+
+label span,.errortxt {
+    color:#f00000;
+    font-size:15px;
+    display:block;
+}
+
+div.errortxt {
+    color:#f00000;
+    font-size:15px;
+    display:block;
+    width: 80%;
+    border: 3px dotted #005000;
+    padding: 5px;
+    margin: 20px 0px;
+}
+
+fieldset {
+   padding:10px;
+}
+
+label {
+   position:relative;
+   display:block;
+   float:left;
+   width:250px;
+   padding: 5px 0;
+}
+
+label.tarea {
+    width:auto;
+}
+input[type=text], input[type=password]{
+width:150px;
+}
+
+input {
+   display:block;
+   position:relative;
+   font-size:10px;
+   font-family:verdana, helvetica, arial, sans-serif;
+}
+
+select {
+   display:block;
+   position:relative;
+   font-size:10px;
+   width:160px;
+   font-family:verdana, helvetica, arial, sans-serif;
+}
+
+input.radio {
+    height:auto;
+    width:auto;
+    display:inline;
+}
+
+label.slim {
+   position:relative;
+   display:inline;
+   float:none;
+   width:15px;
+   padding: 0px 0;
+}
+
+input.slim {
+   display:inline;
+   padding:0px;
+   line-height:12px;
+   position:relative;
+   font-size:10px;
+   width:15px;
+   height: 15px;
+   font-family:verdana, helvetica, arial, sans-serif;
+}
+
+select.search {
+   display:inline;
+   padding:0px;
+   position:relative;
+   font-size:10px;
+   width: auto;
+   height: auto;
+   font-family:verdana, helvetica, arial, sans-serif;
+}
+
+
+
+textarea {
+   padding:5px;
+   font-family:verdana, helvetica, arial, sans-serif;
+   font-size:0.8em;
+   display:block; 
+}
+
+input.submit {
+   clear:left;
+   width:auto;
+   height:auto;
+}
+input.hidden {
+   display:none;
+}
+
+.clear {
+    clear:both;
+}

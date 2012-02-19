@@ -1,0 +1,256 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+td {
+    font-size: 11px;
+}
+
+A {
+    color: #F39700;
+    text-decoration: none
+}
+
+A:hover {
+    color: #F39700;
+    text-decoration: underline
+}
+
+A.admin {
+    color: #55f;
+    text-decoration: none
+}
+
+A.admin:hover {
+    color: #55f;
+    text-decoration: underline
+}
+
+body {
+    background: #AFAFAF;
+    color: #333333; 
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 10px; 
+    font-style: normal; 
+    line-height: normal; 
+    font-weight: medium; 
+    font-variant: normal; 
+    text-transform: none
+}
+
+h1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:  14px;
+    color: #f39700;
+}
+
+h2 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:  12px;
+    color: #f39700;
+}
+
+h3 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:  11px;
+    color: #f39700;
+}
+
+p {
+    font-size: 10px;
+    margin-bottom:10px;
+}
+
+div {
+    font-size: 12px;
+}
+
+.paddingbox {
+    margin:20px;
+    padding:10px;
+    border:1px solid #c9c9c9;margin:20px;
+    background:#fff;
+}
+
+#mainTbl {
+    width: 850px;
+    height: 100%;
+}
+
+#head {
+    width: 850px;
+    height: 104px;
+}
+
+
+#usrmenu {
+    height: 20px;
+    width: 200px;
+    font-size:13px;
+    background-color: #333;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+
+/* Huvudmenyn */
+#menu {
+    height: 1px;
+    background-color: #333;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    font-size: 11px;
+    border-bottom: 1px solid #666;
+}
+
+
+/* Undermenyn */
+#submenu {
+    height: 20px;
+    background-color: #404040;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    font-size: 11px;
+}
+
+#submenu input {
+    float:right;
+    font-family:Verdana, Arial, Helvetica, sans-serif; 
+    font-size:10px; 
+    width:145px; 
+    height:18px; 
+    background-color:#333333; 
+    color:#ffcc00;
+    margin:8px;
+    padding:0px;
+}
+
+.boxcontainer {
+    border:1px solid #c9c9c9;margin:20px;
+    background:#fff;
+}
+
+.boxhead {
+    border-bottom:1px solid #fff;padding:5px 7px;background:#E6E6E6;
+}
+
+/* Teams menyn */
+#teams {
+    background: #f0f0f0;
+    width: 200px;
+    font-size:12px;
+    vertical-align:top;
+}
+
+#teams h1 {
+    color: #fff;
+}  
+
+#teams li {
+    list-style-image: url('../images/arrow.gif');
+    margin-left:13px;
+}
+
+#teams .boxcontainer {
+    margin-right:1px;
+}
+
+#main {
+    background: #f0f0f0;
+    vertical-align:top;
+    font-size:12px;
+}
+
+#foot {
+    font-size:10px;
+    border-top: 2px solid #fff;
+    padding:5px 7px;
+    text-align: center;
+    padding-left: 5px;
+    background: #333;
+    height:14px;
+    color:#bbb;
+}
+
+
+    div.list {
+      position:absolute;
+      width:400px;
+      background-color:white;
+      border:1px solid #888;
+      margin:0px;
+      padding:0px;
+    }
+    ul.contacts  {
+      list-style-type: none;
+      margin:0px;
+      padding:0px;
+      background: #fff;
+      width:300px;
+    }
+    ul.contacts li.selected { background-color: #ffb; }
+    li.contact {
+      list-style-type: none;
+      display:block;
+      margin:0;
+      padding:2px;
+      height:40px;
+    }
+    li.contact div.image * {
+      float:left;
+      width:30px;
+      height:40px;
+      margin-right:8px;
+    }
+    li.contact div.name {
+      font-weight:bold;
+      font-size:12px;
+      line-height:1.2em;
+      color: #000;
+    }
+    li.contact div.email {
+      font-size:10px;
+      color:#888;
+    }
+    #list {
+      margin:0;
+      margin-top:10px;
+      padding:0;
+      list-style-type: none;
+      width:400px;
+    }
+    #list li {
+      margin:0;
+      margin-bottom:4px;
+      padding:5px;
+      border:1px solid #888;
+      cursor:move;
+    }
+  input {
+        z-index:0;
+    }
+
+
+.Eerror, .Ewarning, .Eparse, .Enotice, .Ecoreerror, .Ecorewarning, .Eusererror, .Euserwarning, .Eusernotice {
+    padding:5px;
+    margin:10px;
+    background:url(/template/images/error2.gif);
+}
+
+.Eerror div, .Ewarning div, .Eparse div, .Enotice div, .Ecoreerror div, .Ecorewarning div, .Eusererror div, .Euserwarning div, .Eusernotice div {
+    background:#FFF;
+    color:#000;
+    padding:10px;
+}
+
+.Eerror, .Ecoreerror, .Eusererror {
+    background-color: #C00;
+}
+
+.Ewarning, .Ecorewarning, .Euserwarning {
+    background-color: #CC0;
+}
+
+.Enotice, .Eusernotice {
+    background-color: #00C;
+}

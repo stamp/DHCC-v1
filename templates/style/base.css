@@ -1,0 +1,380 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+td {
+    font-size: 11px;
+}
+
+A {
+    color: #F39700;
+    text-decoration: none
+}
+
+A:hover {
+    color: #F39700;
+    text-decoration: underline
+}
+
+A.admin {
+    color: #55f;
+    text-decoration: none
+}
+
+A.admin:hover {
+    color: #55f;
+    text-decoration: underline
+}
+
+body {
+    color: #FFF;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 11px;
+    background: #202020;
+}
+
+h1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:  14px;
+    color: #f39700;
+}
+
+h2 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:  12px;
+    color: #f39700;
+}
+
+h3 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:  11px;
+    color: #f39700;
+}
+
+p {
+    font-size: 10px;
+    margin-bottom:10px;
+}
+
+div {
+    font-size: 12px;
+}
+
+#mainTbl {
+    width: 850px;
+    height: 100%;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+}
+
+#mainTbl #head {
+    width: 850px;
+    height: 140px;
+    border-bottom: 2px solid #FFF;
+}
+
+
+#usrmenu {
+    height: 20px;
+    width: 160px;
+    font-size:13px;
+    background-color: #555;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+}
+
+#usrmenu ul { 
+    list-style: none;
+    margin-left:  5px;
+}
+
+#usrmenu img {
+    margin-right:5px;
+}
+
+
+/* Huvudmenyn */
+#menu {
+    width: 670px;
+    height: 1px;
+    background-color: #777;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    font-size: 11px;
+    border-bottom: 2px solid #FFF;
+}
+
+#menu ul
+{
+    padding-left: 0;
+    margin-left: 0;
+    background-color: #f39700;
+    float: left;
+    width: 100%;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a
+{
+    padding: 3px 10px;
+    background-color: #f39700;
+    text-decoration: none;
+    color: #000;
+    float: left;
+    border-right: 2px solid #fff;
+}
+
+#menu ul li a.admin
+{
+    padding: 3px 10px;
+    background-color: #005;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    border-right: 2px solid #fff;
+}
+
+
+#menu .selected a {
+    background-color: #202020;
+    color: #fff;
+}
+
+#menu .selected a.admin {
+    background-color: #338;
+    color: #fff;
+}
+
+#menu ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#menu ul li a.admin:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+
+
+/* Undermenyn */
+#submenu {
+    height: 20px;
+    background-color: #777;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    font-size: 11px;
+    border-bottom: 2px solid #FFF;
+}
+
+#submenu ul {
+    width: 100%;
+}
+
+#submenu ul li { display: inline; }
+
+#submenu ul li a 
+{
+    padding: 2px 10px;
+    background-color: #777;
+    text-decoration: none;
+    color: #000;
+    float: left;
+    border-right: 2px solid #fff;
+    text-align:center;
+}
+
+#submenu ul li a.admin
+{
+    padding: 2px 10px;
+    background-color: #005;
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    border-right: 2px solid #fff;
+}
+
+#submenu b
+{
+    padding: 2px 10px;
+    background-color: #777;
+    text-decoration: none;
+    color: #000;
+    float: left;
+    border-right: 2px solid #fff;
+}
+
+#submenu ul li a:hover
+{
+    background-color: #f39700;
+}
+
+#submenu ul li a.admin:hover {
+    background-color: #f39700;
+}
+
+#submenu .selected a {
+    background-color: #202020;
+    color: #fff;
+}
+
+#submenu .selected a.admin {
+    background-color: #338;
+    color: #fff;
+}
+
+.boxcontainer {
+    border:0px dotted #999;margin:10px;
+}
+
+.boxhead {
+    border-bottom:1px solid #fff;padding:5px 7px;background:#222;
+}
+
+/* Teams menyn */
+#teamslist {
+    background: #000;
+    width: 185px;
+    border-right: 2px solid #FFF;
+    vertical-align:top;
+}
+
+#teamslist select,#teamslist select * {
+    background: #555;
+    color:#000;
+    border:0;
+    padding:0;
+    margin:0;
+    height:auto;
+}
+#teamslist select {
+    border-bottom:2px solid #fff;
+}
+
+#teamslist h1 {
+    color: #fff;
+}  
+
+#teamslist table {
+    margin:0px;
+    margin-left:10px;
+}
+
+#main {
+    background: #000;
+    vertical-align:top;
+    font-size:12px;
+}
+
+#foot {
+    font-size:10px;
+    border-top: 2px solid #fff;
+    padding:2px;
+    text-align: center;
+    padding-left: 5px;
+    background: #000;
+    height:14px;
+}
+
+
+/* Debug handling */
+#errorBox {
+    color:  #000;
+    margin:             10px;
+    background:         #FFF;
+    padding-bottom:     5px;
+    font-size:          10px;
+}
+
+.errorRed {
+    border:             1px solid #C00;
+    padding:            5px;
+    margin:             5px;
+}
+
+.errorYellow {
+    border:             1px solid #CC0;
+    padding:            5px;
+    margin:             5px;
+}
+
+.errorGreen {
+    border:             1px solid #0C0;
+    padding:            5px;
+    margin:             5px;
+}
+
+.errorInfo {
+    border:             1px solid #CCC;
+    padding:            5px;
+    margin:             5px;
+}
+
+.errorSql {
+    border:             1px solid #00C;
+    padding:            5px;
+    margin:             5px;
+}
+
+    div.list {
+      position:absolute;
+      width:400px;
+      background-color:white;
+      border:1px solid #888;
+      margin:0px;
+      padding:0px;
+    }
+    ul.contacts  {
+      list-style-type: none;
+      margin:0px;
+      padding:0px;
+      background: #fff;
+      width:300px;
+    }
+    ul.contacts li.selected { background-color: #ffb; }
+    li.contact {
+      list-style-type: none;
+      display:block;
+      margin:0;
+      padding:2px;
+      height:40px;
+      color:#000;
+    }
+    li.contact div.image * {
+      float:left;
+      width:30px;
+      height:40px;
+      margin-right:8px;
+    }
+    li.contact div.name {
+      font-weight:bold;
+      font-size:12px;
+      line-height:1.2em;
+      color: #000;
+    }
+    li.contact div.email {
+      font-size:10px;
+      color:#888;
+    }
+    #list {
+      margin:0;
+      margin-top:10px;
+      padding:0;
+      list-style-type: none;
+      width:400px;
+    }
+    #list li {
+      margin:0;
+      margin-bottom:4px;
+      padding:5px;
+      border:1px solid #888;
+      cursor:move;
+    }
+  input {
+        z-index:0;
+    }
+
+.showhide{
+    color:grey;
+}

@@ -1,0 +1,158 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	scrollbar-3dlight-color: #F0F0EE;
+	scrollbar-arrow-color: #676662;
+	scrollbar-base-color: #F0F0EE;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-face-color: #E0E0DD;
+	scrollbar-highlight-color: #F0F0EE;
+	scrollbar-shadow-color: #F0F0EE;
+	scrollbar-track-color: #F5F5F5;
+}
+
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+pre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+/* Fix for MS Office style paragraphs (MsoNormal) */
+p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Fix for MS Office unindeted lists */
+.unIndentedList {
+	margin: 0;
+	padding: 0;
+	list-style-position: inside;
+}
+
+.unIndentedList li {
+	padding: 0;
+}
+
+/* Fix for MS Office UL lists */
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+#gameTbl img {
+   width:88px;
+   height:125px;
+}
+
+table#gameTbl, table#prod {
+   border:0;
+   width:auto;
+}
+#gameTbl td,#prod td {
+   vertical-align:top;
+   padding-top:20px;
+   padding-bottom:20px;
+   width:150px;
+   height:100px;
+   text-align:center;
+   margin:0;
+   background: #cad9dd;
+
+}
+#prod img {
+   border:1px solid #a8b7bb;
+}
+
+#contactForm {
+   position:absolute;
+}
+#contactForm fieldset {
+   border:0;
+}
+
+p.news {
+    margin-bottom:20px;
+}
+
+#activity table.activity {
+   width:220px;
+   float:left;
+   margin:0;
+   margin-right:10px;
+   margin-bottom:10px;
+   font-size:0.8em;
+   height:100px;
+}
+table.activity th {
+   width:50px;
+   font-weight:bold;
+   font-size:1.1em;
+   text-align:center;
+}
+
+   table {
+      margin:10px 0 20px 0;
+      width: 440px;
+      text-align:justify;
+   }
+   td p {
+      width: auto;
+   }
+   div {
+      width:470px;
+      margin-left:20px;
+   }
+   table {
+      width:470px;
+      border:1px solid #cad9dd;
+   }
+
+   td.win {
+      color:green;
+   }
+   td.loss {
+      color:red;
+   }
+    td, th {
+      padding:2px;
+      padding-left:6px;
+   }
+
+   tr.even {
+      background: #cad9dd;
+   }
+   tr.odd {
+      background: #eaf0f2;
+   }
+   li.odd, #content li.even {
+      margin-top:3px;
+      padding-left:10px;
+   }
+
+   table.lineup {
+      margin:0 0 20px 0;
+      position:relative;
+      width:348px;
+      height:102px;
+   }
+   table.lineup th {
+      width:120px;
+   }
+   div#clan img {
+      border:1px solid #cad9dd;
+    }
+
+div.quote {
+    border:1px solid #ccc;
+    padding:10px;
+    margin-top:3px
+    background:#eee;
+    width:auto;
+}
